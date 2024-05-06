@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    background: #fff;
+}
+body::-webkit-scrollbar{
+    background: #4D2C5E;
+    width: 10px;
+    border-radius: 7px;
+}
+body::-webkit-scrollbar-thumb{
+    background: #FF7426;
+    width: 10px;
+    border-radius: 7px;
+
+}
+.page-overall-padding{
+    max-width: 1250px;
+    margin: auto;
+    padding: 2em 5em;
+}
+.bold{
+    font-weight: 800;
+}
